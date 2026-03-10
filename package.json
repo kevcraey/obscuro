@@ -1,0 +1,36 @@
+{
+  "name": "obscuro",
+  "version": "1.0.0",
+  "description": "Obscuro - pseudonymization frontend",
+  "private": false,
+  "scripts": {
+    "postinstall": "rm -rf build && mkdir -p build",
+    "build": "webpack",
+    "start": "webpack-dev-server --open --port 9000"
+  },
+  "author": "DIDM",
+  "license": "MIT",
+  "main": "src/js/app.js",
+  "devDependencies": {
+    "copy-webpack-plugin": "11.0.0",
+    "css-loader": "6.8.1",
+    "html-webpack-plugin": "5.5.3",
+    "mini-css-extract-plugin": "2.7.6",
+    "style-loader": "3.3.3",
+    "webpack": "5.88.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "@domg-wc/components": "2.7.0",
+    "@domg-wc/styles": "2.7.0",
+    "@lit/task": "1.0.0",
+    "lit": "3.1.0"
+  },
+  "engines": {
+    "node": ">=24.11.1"
+  },
+  "volta": {
+    "node": "24.11.1"
+  }
+}
