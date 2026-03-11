@@ -67,7 +67,7 @@ export class ObscuroApp extends BaseHTMLElement {
           <vl-content-header>
             <img slot="image" sizes="100vw" src="/img/banner.png" alt="" />
             <a slot="context-link" href="/">OBSCURO</a>
-            <a slot="title-link" href="/">Jouw priv-AI-cy assistent</a>
+            <a slot="title-link" href="/">priv-AI-cy</a>
           </vl-content-header>
           <section class="vl-region">
             <div class="vl-layout">
